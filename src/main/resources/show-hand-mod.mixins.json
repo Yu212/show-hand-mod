@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.yu212.showhandmod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "show-hand-mod.refmap.json",
+  "mixins": [
+    "MixinGameRenderer"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
