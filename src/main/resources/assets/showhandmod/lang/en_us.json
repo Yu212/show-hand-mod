@@ -1,4 +1,7 @@
 {
-  "showhandmod.options.show_hand": "Show hand",
-  "key.showhandmod.show_hand": "Show hand"
+  "options.showhandmod.hand_visibility": "Hand Visibility",
+  "options.showhandmod.default": "Default",
+  "options.showhandmod.hide": "Hide",
+  "options.showhandmod.show": "Show",
+  "key.showhandmod.switch_hand_visibility": "Switch Hand Visibility"
 }

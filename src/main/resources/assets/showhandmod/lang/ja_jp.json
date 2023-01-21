@@ -1,4 +1,7 @@
 {
-  "showhandmod.options.show_hand": "手を表示",
-  "key.showhandmod.show_hand": "手を表示"
+  "options.showhandmod.hand_visibility": "手の表示",
+  "options.showhandmod.default": "デフォルト",
+  "options.showhandmod.hide": "非表示",
+  "options.showhandmod.show": "表示",
+  "key.showhandmod.switch_hand_visibility": "手の表示の切り替え"
 }

@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 @Mixin(GameRenderer.class)
 public class MixinGameRenderer {
     @Redirect(method = "renderItemInHand", at = @At(value = "FIELD", target = "Lnet/minecraft/client/Options;hideGui:Z", opcode = Opcodes.GETFIELD))
-    public boolean hideHand(Options instance) {
-        return !Config.SHOW_HAND.get();
+    public boolean isHidingHand(Options options) {
+        return Config.HAND_VISIBILITY.get().isHidingHand(options.hideGui);
     }
 }
