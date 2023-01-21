@@ -1,1 +1,8 @@
-rootProject.name = 'show-hand-mod'
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven { url = 'https://maven.minecraftforge.net/' }
+    }
+}
+
+rootProject.name = 'showhandmod'
